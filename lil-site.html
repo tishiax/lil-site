@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>protector of the moon</title>
+    <link rel="shortcut icon" href="site-png/sailor-accessory.png">
+    <link rel="stylesheet" href="lil-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="site-png/moon-gadget.png" class="logo">
+            <ul>
+                <li class="active"><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">gadgets</a></li>
+                <li><a href="#">transformations</a></li>
+                <li class="slide"></li>
+            </ul>
+            <script
+            src="http://code.jquery.com/jquery-3.2.1.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('li').on('click', function(){
+                        $(this).siblings().removeClass('active');
+                        $(this).removeClass('active');
+                    })
+                })
+            </script>
+        </nav>
+        <h1>moon crystal power!</h1>
+        <button class="stylebtn" type="button">make up!</button>
+
+        <div class="indicator">
+            <span class="active"></span>
+            <span class="active"></span>
+            <span class="active"></span>
+        </div>
+
+        <div class="cta">
+            <p>com o poder da lua nossa super heroína e suas
+                amigas acabam com os vilões e protegem
+                a terra contra o mal!</p>
+            <button class="stylebtn" type="button">descubra mais! &#x3e;</button>
+
+        </div>
+    </div>
+</body>
+</html>
