@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial scale=1.0">
     <title>protector of the moon</title>
     <link rel="shortcut icon" href="site-png/sailor-accessory.png">
-    <link rel="stylesheet" href="lil-style.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -25,19 +25,32 @@
                 $(document).ready(function(){
                     $('li').on('click', function(){
                         $(this).siblings().removeClass('active');
-                        $(this).removeClass('active');
+                        $(this).addClass('active');
                     })
                 })
             </script>
         </nav>
-        <h1>moon crystal power!</h1>
-        <button class="stylebtn" type="button">make up!</button>
+
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                </div>
+                <div class="flip-box-back">
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <h1>moon crystal power!</h1>
+            <button class="stylebtn" type="button">make up!</button>
+        </div>
 
         <div class="indicator">
             <span class="active"></span>
             <span class="active"></span>
             <span class="active"></span>
         </div>
+
 
         <div class="cta">
             <p>com o poder da lua nossa super heroína e suas
